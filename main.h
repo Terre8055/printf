@@ -5,7 +5,7 @@
 #include <stdarg.h>
 #include <unistd.h>
 
-int _prinf(const char *format, ...);
+int _printf(const char *format, ...);
 int _putchar(char c);
 
 /***************************************/
