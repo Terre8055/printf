@@ -29,8 +29,12 @@ int _printf(const char *format, ...)
 				_putchar('%');
 			else if (format[i] == 'c')
 				print_char(list);
+			else if (format[i] == 's')
+				print_string(list);
 		}
 	}
 
 	va_end(list);
+
+	return (1);
 }

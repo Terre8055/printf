@@ -1,7 +1,13 @@
 ## Building a custom printf function.
 
 
-Use code below to compile
+Save this script below to compile the code
+
+```
+#!/bin/bash
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c test/main.c -o test/printf
+```
+
 
 ```gcc .\_putchar.c .\print_char .\print_string.c .\_printf.c -o printf```
 

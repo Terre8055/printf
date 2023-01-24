@@ -2,7 +2,7 @@
 
 /**
  * print_string - Prints a string
- * @types: List of arguments
+ * @ch: character
  *
  * Return: 1
  */
